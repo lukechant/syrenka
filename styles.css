@@ -1,23 +1,24 @@
 body {
   text-align: center;
   width: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: whitesmoke;
   background-color: black;
 }
 
 h1 {
-    font-size: 4rem;
-    font-family: 'Kreon', serif;
+  font-size: 6rem;
+  font-family: "Kreon", serif;
 }
 
-h2, h3 {
-    font-family: 'Roboto Slab', serif;
+h2,
+h3 {
+  font-family: "Roboto Slab", serif;
 }
 
 nav ul {
   list-style-type: none;
-    width: 100%;
+  width: 100%;
   flex-direction: row;
   align-items: center;
   padding-inline-start: 0px;
@@ -27,4 +28,25 @@ nav li {
   display: inline-flex;
   margin: 10px;
   padding: 20px;
+  font-size: 2rem;
+}
+
+.container {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-width: 10px;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
 }
